@@ -53,14 +53,14 @@ const Signin = ()=>{
         		<h2>Instagram</h2>
         		  <input 
             type = "text"
-            placeholder = "email"
+            placeholder = "Email"
             value = {email}
             onChange = {(e)=>setEmail(e.target.value)}
             />
 
             <input 
-            type = "text"
-            placeholder = "password"
+            type = "password"
+            placeholder = "Password"
             value = {password}
             onChange = {(e)=>setPassword(e.target.value)}
             />
@@ -70,11 +70,13 @@ const Signin = ()=>{
               >
         		  Login
                   
-                  </button>
-
-                  <h5>
+              </button>
+              <br/>
+                  
+                  <h5 >
                   	<Link to="/signup">Create an an account </Link>
                   </h5>
+                  
      		</div>
 
 		</div>
